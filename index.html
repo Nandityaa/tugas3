@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Calculator</h1>
+
+<div class="calculator">
+    <div>
+        <label>Angka 1:</label>
+        <input type="number" id="no1"><br>
+        <label>Angka 2:</label>
+        <input type="number" id="no2"><br>
+        <div class="biarRapi">
+        <label>Hasil:</label>
+        <input type="text" readonly id ="hasil"><br>
+        </div>
+    </div>
+    <div>
+        <button onclick="calculate('+')">+</button>
+        <button onclick="calculate('-')">-</button>
+        <button onclick="calculate('*')">*</button>
+        <button onclick="calculate('/')">/</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
